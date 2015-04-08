@@ -17,7 +17,7 @@ import os, re, urllib
 
 #####################################################################
 #SETTINGS
-base_url= 'http://www.swpc.noaa.gov/ftpdir/lists'
+base_url= 'http://legacy-www.swpc.noaa.gov/ftpdir/lists'
 data_list= [
 	('pchan/Gp_pchan_5m.txt'    ,      '5 min GOES-13 Energetic Proton Data'),
 	('pchan/Gs_pchan_5m.txt'    ,      '5 min GOES-15 Energetic Proton Data'),
