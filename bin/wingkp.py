@@ -35,7 +35,7 @@ def convert_time(val):
 #####################################################################
 #SETTINGS 
 #data= 'data/wingkp_list.txt'
-data= 'http://www.swpc.noaa.gov/wingkp/wingkp_list.txt'
+data= 'http://services.swpc.noaa.gov/text/wing-kp.txt'
 os.environ['TZ']= 'UTC'
 base_dir= os.path.join(os.environ['HOME'],'kasei0/astronomy/space_weather/NOAA')
 
