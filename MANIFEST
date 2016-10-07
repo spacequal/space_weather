@@ -1,0 +1,22 @@
+ref/
+	GOES_XRS_readme.pdf							GOES XRS Manual
+data/
+	GOES												GOES data automatically downlinked status
+	GOES_full										Full resolution GOES datasets
+		L+14											Solar data around L+14
+		6month										Solar data around the 6 Month Calibration
+		pre-EGA										Pre-EGA data
+		post-EGA										Post-EGA data
+
+bin/
+	ACE/
+		summary.py
+
+	GOES/
+		get_data.py
+		summary.py
+	
+	L14/
+		get_data.sh									wget download for solar data around OSIRIS-REx L+14
+		summary.py									GOES X-ray monitor summary plots
+
